@@ -67,10 +67,9 @@
     <div id="container">
     <section id="form-section">
         <div class="interface">
-            <form action="http://localhost/ZeroDengue/Denuncias/submit_denuncia">
+            <form action="http://localhost/ZeroDengue/Denuncia/submit_denuncia.php" method="post">
         <section class="formulario">
-         <h2 class="titulo">Denuncie criadouros de<span> dengue.</span></h2>
-        <form action="submit_denuncia.php" method="POST" enctype="multipart/form-data">
+         <h2 class="titulo">Denuncie criadouros de<span> dengue.</span></h2> 
             <div>
             <label for="cep"><b>CEP:</b> </label>
 
@@ -97,14 +96,14 @@
                 
              <br>
 
-                <input type="text" id="descrição" name="descricao" required placeholder="Descreva a sua denúncia aqui">
+                <input type="text" id="descricao" name="descrição" required placeholder="Descreva a sua denúncia aqui">
             </div>
             <div>
             <label for="imagem"><b>Imagem:</b></label>
                 
              <br>
 
-                <input type="text" id="descrição" name="imagem" required placeholder="Insira a url da sua imagem">
+                <input type="text" id="imagem" name="imagem" required placeholder="Insira a url da sua imagem">
             </div>
             <div>
                 <div class="btn-enviar"><input type="submit" value="ENVIAR DENUNCIA"></div>
@@ -155,8 +154,6 @@
         <footer>
             <p>© 2024 ZERO DENGUE. Todos os direitos reservados.</p>
         </footer>
-    </body>
-    </html>
     
 </body>
 </html>
