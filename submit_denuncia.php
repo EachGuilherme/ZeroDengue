@@ -17,7 +17,7 @@ if (!$conn) {
     die("Falha na conexão: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO denuncias (cep, logradouro, subregiao, descricao, imagem) VALUES (?, ?, ?, ?, ?)";
+$sql = "INSERT INTO zerodengue (cep, logradouro, subregiao, descricao, imagem) VALUES (?, ?, ?, ?, ?)";
 
 $stmt = mysqli_stmt_init($conn);
 
